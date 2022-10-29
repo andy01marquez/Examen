@@ -3,6 +3,9 @@ button{
     text-align: center;
     font: bold 14pt/16pt arial, serif;
 }
+p{
+    text-align: center;
+}
 .joinBtn:hover {
     background-color:pink;
 }
@@ -56,26 +59,41 @@ button{
 .tabla_encabezados{
     color: red;
     text-align: center;
-    font: italic 14pt/16pt times, serif;
+    font:bold 12pt/14pt times, serif;
 }
-table{
-    width: 50%;
-    border: 1px solid #000;
-    color: black; 
-    border-collapse: collapse;
+.table{
+    display:table;
+    border-width: 2px;
+    text-align: center;
+}
+.row{
+   display: table-row;
+}
+.cell{
+    border-color: rgb(0, 0, 0);
+    display: table-cell;
+    border-width: 1px; 
+    border-style: dotted; 
+    padding-left: 165px;
+    padding-right: 165px;
+    background-color: yellow;
+    
+}
+.cell_2{
+    border-color: rgb(0, 0, 0);
+    display: table-cell;
+    border-width: 1px; 
+    border-style: dotted; 
+    padding-left: 74px;
+    padding-right:74px;
     background-color: yellow;
 }
-th, td {
-    width: 25%;
-    text-align: left;
-    vertical-align: top;
-    border: 1px solid #000;
- }
- .img_derecha {
+
+.img_derecha {
     float: right;
     margin-left: 15px;
-  }
-  .img_izquierda {
+}
+.img_izquierda {
     float: left;
     margin-right: 15px;
-  }
+}
