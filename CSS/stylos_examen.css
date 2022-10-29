@@ -13,3 +13,11 @@ button{
     color: pink;
     text-decoration: underline pink;  
 }
+.verde{
+    color: green;
+    text-decoration: underline green;  
+}
+.rojo{
+    font-weight: bold;
+    color: red;
+}
