@@ -37,8 +37,17 @@ button{
     text-decoration: underline red;
     font-weight: bold;
 }
-p{
-    text-align: justify;
+.negro_sub{
+    color: rgb(0, 0, 0);
+    font: bold 16pt/18pt times, serif;
+}
+.negro_comillas{
+    color: rgb(0, 0, 0);
+    font: bold 16pt/18pt times, serif;
+}
+.autores{
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
 .tabla_encabezados{
     color: red;
@@ -58,3 +67,11 @@ th, td {
     vertical-align: top;
     border: 1px solid #000;
  }
+ .img_derecha {
+    float: right;
+    margin-left: 15px;
+  }
+  .img_izquierda {
+    float: left;
+    margin-right: 15px;
+  }
