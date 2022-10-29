@@ -1,12 +1,12 @@
 body{
-    background-color: blueviolet;
+    background-color: pink;
 }
-boton{
+button{
     text-align: center;
     font: bold 14pt/16pt arial, serif;
 }
 .joinBtn:hover {
-    background-color: rgb(201, 27, 27);
+    background-color:pink;
 }
 .titulo1{
     font: bold 14pt/16pt arial, serif;
