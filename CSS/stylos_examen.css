@@ -1,12 +1,16 @@
-body{
-    background-color: pink;
-}
+
 button{
     text-align: center;
     font: bold 14pt/16pt arial, serif;
 }
 .joinBtn:hover {
     background-color:pink;
+}
+.joinBtn_3:hover {
+    background-color:paleturquoise;
+}
+.joinBtn_2:hover{
+    background-color: rgb(241, 184, 241);
 }
 .titulo1{
     font: bold 14pt/16pt arial, serif;
