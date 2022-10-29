@@ -21,3 +21,40 @@ button{
     font-weight: bold;
     color: red;
 }
+.subrayado{
+    text-decoration: overline underline;
+}
+.grande{
+    font: bold 20pt/22pt times, serif;
+    font-weight: bold;
+}
+.azul{
+    color: blue;
+    font-weight: bold;
+}
+.rojo_sub{
+    color: red;
+    text-decoration: underline red;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+.tabla_encabezados{
+    color: red;
+    text-align: center;
+    font: italic 14pt/16pt times, serif;
+}
+table{
+    width: 50%;
+    border: 1px solid #000;
+    color: black; 
+    border-collapse: collapse;
+    background-color: yellow;
+}
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+ }
